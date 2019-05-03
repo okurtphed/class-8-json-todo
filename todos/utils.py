@@ -16,9 +16,12 @@ def parse_date(date_str):
         except ValueError:
             pass
 
-
+    raise InvalidTaskDueDateException()
 def parse_int(value):
-    pass
+    try:
+        return int(value)
+    except:
+        return None
 
 
 def serialize(tasks):

@@ -27,7 +27,7 @@ $ python main.py --debug
 $ python main.py list
 $ python main.py list -s pending
 $ python main.py list -s done
-$ python main.py list -s all
+$ python main.py list -s allmak
 ```
 
 
